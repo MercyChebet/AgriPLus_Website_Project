@@ -3,3 +3,26 @@ body {
     background-color: #FAFAFA;
     overflow-x:auto;
   }
+  #Logbt {
+    margin-left: 20px;
+    padding: 9px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    outline: none;
+  }
+  .bt-1 {
+    margin-left: 20px;
+    padding: 9px 10px;
+    background-color: #2549D3;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    outline: none;
+  }
