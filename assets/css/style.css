@@ -171,3 +171,32 @@ body {
             border-bottom: 0.2em solid red;
             margin-top: 10px;
         }
+        .horizontal-line{
+            height: 15px;
+            width: 200%;
+            margin-left: 100px;
+            margin-bottom: 50px;
+            background-color: gray;
+            color: gray;
+            border-bottom: 0.3em solid gray;
+            border-top: 0.1em solid gray;
+        }
+        .customers{
+            height: 500px;
+            width: 600px;
+            margin-bottom: 200px;
+        }
+        .customers-container{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .row{
+            display: flex;
+            justify-content: space-around;
+        }
+        .customers > pics{
+            width: 500px;
+        }
+        
+        
