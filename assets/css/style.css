@@ -54,7 +54,7 @@ body {
           display:flex;
           justify-content: space-around;
       }
-      .Logbt {
+      .logbt {
         height: auto;
         padding: 1rem;
         bottom:-50%
@@ -73,7 +73,7 @@ body {
         text-decoration: none;
         margin-top: 15px;
       }
-      .Exist image {
+      .exist image {
         height: 400px;
         width: 600px;
       }
@@ -96,19 +96,27 @@ body {
         border-bottom: 0.2em solid red;
         margin-top: 10px;
     }
-    .column {
-            float: left;
-            width: 30.33%;
-            padding: 0 10px;
-            display: flex;
-            justify-content: space-around;
+     .column {
+        float: left;
+        width: 22%;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-around;
           }
-    .row {
-            margin: 0 -5px;
-            text-align: center;
-        padding: 20px;
-        }
-    .row:after {
+          
+          /* Clear floats after the columns */
+          .row:after {
             content: "";
             display: table;
             clear: both;
+          }
+          .whitebox{
+            background-color:white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+            padding: 16px;
+            text-align: left;
+          }
+          .container-image{
+            height:100%;
+            width: 100%;
+          }
