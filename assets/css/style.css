@@ -1,3 +1,6 @@
+:root {
+    --primary-color: #ED661F;
+}
 body {
     font-family: 'Poppins', 'Inter';
     background-color: #FAFAFA;
@@ -198,5 +201,83 @@ body {
         .customers > pics{
             width: 500px;
         }
+        .read-more{
+            float: right;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .read-more-link-active:after { /* this is the border */
+            content:"";
+            display:block;
+            width: 3em;
+            max-width:50%;
+            border-bottom: 0.2em solid red;
+            margin-top: 10px;
+        }
+        .footer-row {
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+            margin-top: 60px;
+        }
         
+        ul {
+            list-style-type: none;
+        }
+        
+        .footer {
+            background-color: black;
+            padding: 70px 50px 70px 200px;
+        }
+        
+        .container {
+            background-color: black;
+        }
+        
+        .footer-row {
+            background-color: black;
+            display: flex;
+        }
+        
+        .footer-col {
+            background-color: black;
+            width: 20%;
+            padding: 0 30px;
+            /* margin-right: 10vh; */
+        }
+        
+        .footer-col h1 {
+        
+            color: #f1f1f1;
+            padding: 5px;
+            font-size: xx-large;
+            font-family: 'Oleo Script';
+            background-color: black;
+        }
+        
+        .footer-col ul {
+            background-color: black;
+        }
+        
+        .footer-col li h4 {
+            background-color: black;
+            color: #f1f1f1;
+        }
+        
+        .footer-col li {
+            background-color: black;
+            color: #f1f1f1;
+            padding: 5px;
+        }
+        
+        .footer-col p {
+            background-color: black;
+            color: #f1f1f1;
+            padding: 3px;
+            font-size: 18px;
+        }
+        
+        #agri-footer {
+            margin-right: 60px;
+        }
         
