@@ -74,8 +74,8 @@ body {
         margin-top: 15px;
       }
       .Exist image {
-        height: auto;
-        width: 100%;
+        height: 400px;
+        width: 600px;
       }
       .pane {
         float: left;
@@ -96,3 +96,19 @@ body {
         border-bottom: 0.2em solid red;
         margin-top: 10px;
     }
+    .column {
+            float: left;
+            width: 30.33%;
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-around;
+          }
+    .row {
+            margin: 0 -5px;
+            text-align: center;
+        padding: 20px;
+        }
+    .row:after {
+            content: "";
+            display: table;
+            clear: both;
