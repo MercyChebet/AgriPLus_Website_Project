@@ -1,10 +1,7 @@
 body {
     font-family: 'Poppins', 'Inter';
     background-color: #FAFAFA;
-    overflow-x:auto;
-  }
-  #Logbt {
-    margin-left: 20px;
+    overflow-x: hidden;
   }
   .bt-1 {
     margin-left: 20px;
@@ -22,33 +19,57 @@ body {
     font-family: 'Inter', cursive;
         font-size: 20px;
   }
-  .nav {
-    margin-left:250px;
+ nav ul {
     display: flex;
     height: 100%;
     align-items: center;
     }
+   
       .nav_links {
         list-style: none;
       }
-    
+   
       .nav_links li {
-        display: inline-block;
+        display: flex;
         padding: 0px 10px;
       }
-    
+   
       .nav_links li a {
         transition: all 0.3s ease 0s;
         color: black;
       }
-    
+   
       .nav_links li a:hover {
         color: #ED661F;
       }
       ul{
         list-style:none;
+       
     }
     .pane {
         float: left;
         width: 50%;
+      }
+     nav{
+          display:flex;
+          justify-content: space-around;
+      }
+      .Logbt {
+        height: auto;
+        padding: 1rem;
+        bottom:-50%
+      }
+      .cta {
+        margin-top: 20px;
+        float: left; 
+      }
+    
+      .cta a {
+        padding: 12px;
+        background: aliceblue;
+        border-radius: 5px;
+        background-color: #2549D3;
+        color: white;
+        text-decoration: none;
+        margin-top: 15px;
       }
