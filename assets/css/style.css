@@ -73,3 +73,26 @@ body {
         text-decoration: none;
         margin-top: 15px;
       }
+      .Exist image {
+        height: auto;
+        width: 100%;
+      }
+      .pane {
+        float: left;
+        width: 50%;
+      }
+      .popular{
+        margin-bottom: 70px;
+    }
+    .popular h1{
+        margin-left: 70px;
+        padding-bottom: 30px;
+    }
+    .popular-link-active:after { /* this is the border */
+        content:"";
+        display:block;
+        width: 3em;
+        max-width:50%;
+        border-bottom: 0.2em solid red;
+        margin-top: 10px;
+    }
