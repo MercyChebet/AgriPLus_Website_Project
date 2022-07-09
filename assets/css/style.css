@@ -158,3 +158,16 @@ body {
         .pics p{
             margin-bottom: 5px;
         }
+        .see-all{
+            float: right;
+            margin-right: 200px;
+            margin-top: 50px;
+        }
+        .see-all-link-active:after { /* this is the border */
+            content:"";
+            display:block;
+            width: 3em;
+            max-width:50%;
+            border-bottom: 0.2em solid red;
+            margin-top: 10px;
+        }
