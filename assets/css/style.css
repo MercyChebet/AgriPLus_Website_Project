@@ -127,3 +127,18 @@ body {
             height:100%;
             width: 100%;
           }
+          .newest-link-active:after { /* this is the border */
+            content:"";
+            display:block;
+            width: 3em;
+            max-width:50%;
+            border-bottom: 0.2em solid red;
+            margin-top: 10px;
+        }
+        .newest h1{
+            margin-left: 70px;
+            padding-bottom: 30px;
+        }
+        .newest{
+            margin-bottom: 150px;
+        }
