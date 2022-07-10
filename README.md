@@ -7,7 +7,7 @@ Project Author: Mercy Chebet
 4. [Licence Information](#License-Information)
 5. [Contact Information](#COntact-Information)
 ## About the Project
-I will present a code reproducing a landing page for Agriplus an Ecommerce company in operating from Kenya. attatched below is the deployment link.
+This project presents the landing page for Agriplus, an Ecommerce company in Kenya.
 ### This project is built with;
  * HTML - which was used to build the structure of the pages.
 *  CSS - which was used to style the pages incuding the left aside navigation bar
