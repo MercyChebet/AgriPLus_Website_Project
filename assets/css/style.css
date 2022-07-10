@@ -1,6 +1,12 @@
 :root {
     --primary-color: #ED661F;
 }
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+    font-family: 'Poppins', 'Inter'
+}
 body {
     font-family: 'Poppins', 'Inter';
     background-color: #FAFAFA;
@@ -112,6 +118,12 @@ body {
         padding: 20px;
 
     }
+    .flex-container{
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+        }
           
           /* Clear floats after the columns */
           .row:after {
