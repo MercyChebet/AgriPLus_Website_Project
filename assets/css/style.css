@@ -47,7 +47,7 @@ body {
     text-decoration: none;
     }
     .backimg {
-    background-image: url ('assets/images/image _1.png');
+    background-image: url (/images/image _1.png);
     background-size: cover;
     background-repeat: repeat;
     }
