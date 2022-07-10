@@ -47,10 +47,36 @@ body {
     text-decoration: none;
     }
     .backimg {
-    background: url(assets/images/image_1.png);
+    background-image: url ('assets/images/image _1.png');
     background-size: cover;
     background-repeat: repeat;
     }
+    .row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+    }
+    .pane {
+    width: 60%;
+        }
+  .flex-containers{
+    display: flex; /* NEW, Spec - Firefox, Chrome, Opera */
+    align-items: center;
+    }
+    /* Clear floats after the columns */
+
+     .img {
+        height: auto;
+        width: 100%;
+        vertical-align: left;
+        float: right;
+          }
+          .veg {
+            width: 40%;
+          }
+
     .cta {
     margin-top: 20px;
     float: left; 
@@ -64,14 +90,12 @@ body {
     text-decoration: none;
     margin-top: 15px;
     }
+    /*
     .exist image {
     height: 400px;
     width: 600px;
     }
-    .pane {
-    float: left;
-    width: 50%;
-    }
+    
     .popular{
     margin-bottom: 70px;
     }
@@ -94,22 +118,7 @@ body {
     display: flex;
     justify-content: space-around;
     }
-    .row {
-    margin: 0 -5px;
-    text-align: center;
-    padding: 20px;
-    }
-    .flex-container{
-    display: flex; /* NEW, Spec - Firefox, Chrome, Opera */
-    justify-content: center;
-    align-items: center;
-    }
-    /* Clear floats after the columns */
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
+    
     .whitebox{
     float: left;
     background-color:white;
