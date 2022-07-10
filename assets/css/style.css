@@ -56,9 +56,10 @@ nav li a {
 }
 
 .backimg {
-  background-image: url('assets/images/image_1.png');
-  background-size: contain;
-  background-repeat: repeat;
+  background-image: url(../images/image_1.png);
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no repeat;
 }
 
 .row {
